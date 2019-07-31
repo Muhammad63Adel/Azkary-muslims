@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.muhammad.azkary">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/azkary2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Start">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".second" />
+        <activity android:name=".third_one" />
+        <activity android:name=".third_two" />
+        <activity android:name=".third_three" />
+        <activity android:name=".four_one" />
+        <activity android:name=".four_two" />
+        <activity android:name=".four_three" />
+        <activity android:name=".five_one" />
+        <activity android:name=".five_two" />
+        <activity android:name=".five_three" />
+        <activity android:name=".read" />
+    </application>
+
+</manifest>
